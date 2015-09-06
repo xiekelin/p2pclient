@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">P2P</string>
+    <string name="title">请输入</string>
+    <string name="yes">确定</string>
+    <string name="no">取消</string>
+    <string name="title_error">错误提示</string>
+    <string name="connectFail">抱歉，网络连接失败！</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/res/drawable-hdpi/btn_empty.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/res/drawable-hdpi/dialog_2.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/res/layout/promptbox.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/example/util/ApacheBase64.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/weberknecht/ServerAddressConstant.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/weberknecht/WebSocket.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/weberknecht/WebSocketEventHandler.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/weberknecht/WebSocketException.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/weberknecht/WebSocketHandshake.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/weberknecht/WebSocketMessage.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/weberknecht/WebSocketReceiver.java" charset="GBK" />
+  </component>
+</project>
+

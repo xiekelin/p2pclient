@@ -1,0 +1,93 @@
+package protobuf;
+
+option java_package = "com.example.protobuf";
+option java_outer_classname = "ProtoBuffer";
+
+message MainInterFace{
+
+required PackageType packageType = 1;
+
+optional RequestConnect requestConnect = 2;
+
+optional RequestSendFile requestSendFile = 3;
+
+optional ConfirmReceive confirmReceive = 4;
+
+optional SendFile sendFile = 5;
+
+repeated GetPearList getPearList = 6;
+
+optional Chat chat = 7;
+
+}
+
+enum PackageType{
+
+requestConnect = 1;
+
+requestSendFile = 2;
+
+confirmReceive = 3;
+
+sendFile = 4;
+
+getPearList = 5;
+
+chat = 6;
+
+burrow = 7;
+
+register = 8;
+
+requestConnectHole = 9;
+}
+
+message RequestConnect{
+
+optional string ip = 1;
+
+}
+
+message RequestSendFile {
+
+optional string FileName = 1;
+
+optional int32 FileSize = 2;
+
+}
+
+message ConfirmReceive{
+
+optional int32 ConfirmFlag = 1;
+
+optional int32 Offset = 2;
+
+}
+
+message SendFile{
+
+optional int32 MoreData = 1;
+
+optional int32 DataLength = 2;
+
+optional bytes Data = 3;
+
+}
+
+message GetPearList{
+	
+optional string ip = 1;	
+
+optional int32  tap = 2;
+
+}
+
+message Chat{
+optional string message = 1;
+}
+
+
+
+
+
+
